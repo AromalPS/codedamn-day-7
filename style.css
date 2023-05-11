@@ -75,4 +75,29 @@ button span {
 
 .spacer {
 	height: 10px;
+	width: 20px;
+}
+
+@media only screen and (min-width: 728px) {
+	.details {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.name {
+		position: relative;
+		top: 70px;
+		margin-left: 20px;
+	}
+
+	.profile-pic {
+		display: flex;
+	}
+
+	.button {
+		display: flex;
+		width: 250px;
+		position: relative;
+		top: 100px;
+	}
 }
